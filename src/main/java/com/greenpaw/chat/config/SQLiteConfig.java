@@ -39,7 +39,7 @@ public class SQLiteConfig {
     )
     public static class MySQLConfig {
 
-        @Value("${spring.datasource.url:jdbc:mysql://localhost:3306/ilink_chat?useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true}")
+        @Value("${spring.datasource.url:jdbc:mysql://localhost:3306/greenpaw?useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true}")
         private String mysqlUrl;
 
         @Value("${spring.datasource.username:root}")

@@ -225,7 +225,7 @@ public class AgentRuntimeService {
     private String systemPrompt(String userId, SubjectDirectoryService.ResolvedSubject subject,
                                 Artifact artifact, List<String> retrieval) {
         StringBuilder prompt = new StringBuilder("""
-                你是 WECHATILINK 的宠物/植物护理 Agent。请遵守：
+                你是 GreenPaw 的宠物/植物护理 Agent。请遵守：
                 1. 使用中文，优先基于档案、事件、会话历史和工具返回的真实数据。
                 2. 需要实时信息、专业知识、位置服务或图片理解时调用工具，不要编造。
                 3. 附近服务结果中的导航链接必须原样保留。

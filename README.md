@@ -44,7 +44,7 @@ Java 21 · Spring Boot 3.5 · Spring AI · DeepSeek-V4（OpenAI 兼容）· 通�
 
 ```bash
 # 1. 准备 MySQL
-mysql -uroot -e "CREATE DATABASE IF NOT EXISTS ilink_chat"
+mysql -uroot -e "CREATE DATABASE IF NOT EXISTS greenpaw"
 
 # 2. 配置密钥（gitignore 的本地文件，或用环境变量）
 cat > application-local.properties <<'EOF'
