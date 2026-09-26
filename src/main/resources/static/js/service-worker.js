@@ -1,6 +1,6 @@
 self.addEventListener('push', function(event) {
     const data = event.data ? event.data.json() : {};
-    const title = data.title || 'Sekai PetPlant';
+    const title = data.title || 'GreenPaw';
     const options = {
         body: data.body || '',
         icon: data.icon || '/favicon.ico',
